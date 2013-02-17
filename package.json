@@ -1,0 +1,27 @@
+{
+  "name": "eval-grid",
+  "version": "0.0.0",
+  "description": "Initializes an n-dimensional image",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/eval-grid.git"
+  },
+  "keywords": [
+    "nd",
+    "image",
+    "volume",
+    "initialize",
+    "tensor"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "3304b68789b4bf5b47e56aac265839eb93ab2a19"
+}
