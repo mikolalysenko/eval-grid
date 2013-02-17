@@ -56,7 +56,7 @@ function gridn(dims, func, x, n) {
   } else {
     for(var i=0; i<dims[n]; ++i) {
       x[n] = i;
-      result[i] = func(x);
+      result[i] = gridn(dims, func, x, n+1);
     }
   }
   return result;
